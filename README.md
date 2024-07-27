@@ -46,15 +46,15 @@ Start the development server:
 ```bash
 npm start
 ```
+Open your web browser and navigate to http://localhost:3000, if it is not automatically opend.
+
 # Running Tests
 
-This project uses Jest for testing. Follow the steps below to run the tests:
-
+This project uses Jest for testing.
 To run the tests, use the following command:
 
    Navigate to the project root directory in your terminal and run:
    ```bash
-   npm install
+   npm test
    ```
    
-Open your web browser and navigate to http://localhost:3000, if it is not automatically opend.
