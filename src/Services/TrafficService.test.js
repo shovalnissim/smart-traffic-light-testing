@@ -6,7 +6,6 @@ describe('TrafficService', () => {
 
     beforeEach(() => {
         trafficService = new TrafficService();
-
     });
 
     afterEach(() => {

@@ -1,0 +1,10 @@
+.intersection {
+    display: grid;
+    place-items: center;
+    height: 100vh; 
+  }
+  
+  .vertical-road,
+  .horizontal-road {
+    position: absolute; 
+  }
