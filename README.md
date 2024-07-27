@@ -25,25 +25,26 @@ To set up and run the project, follow these steps:
 
 Clone the repository:
 
-bash
-Copy code
+```bash
 git clone <https://github.com/shovalnissim/smart-traffic-light.git>
+```
 
 Navigate to the project directory:
 
-bash
-Copy code
+```bash
 cd smart-traffic-light
+```
 
 Install dependencies:
 
-bash
-Copy code
+```bash
 npm install
+```
 
 Start the development server:
 
-bash
-Copy code
+```bash
 npm start
+```
+
 Open your web browser and navigate to http://localhost:3000, if it is not automatically opend.
