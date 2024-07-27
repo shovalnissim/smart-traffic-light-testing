@@ -1,33 +1,34 @@
 .traffic-light {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .traffic-light.ns {
-    margin-bottom: 230px; 
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .traffic-light.ew {
-    margin-left: 230px; 
-  }
-  
-  .light-circle {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-weight: bold;
-  }
-  
-  .traffic-light.green .light-circle {
-    background-color: green;
-  }
-  
-  .traffic-light.red .light-circle {
-    background-color: red;
-  }
-  
+.traffic-light.ns {
+  margin-bottom: 260px;
+}
+
+.traffic-light.ew {
+  margin-left: 260px;
+}
+
+.light-circle {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.traffic-light.green .light-circle {
+  background-color: green;
+}
+
+.traffic-light.red .light-circle {
+  background-color: red;
+}

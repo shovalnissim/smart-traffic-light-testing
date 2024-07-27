@@ -26,7 +26,7 @@ To set up and run the project, follow these steps:
 Clone the repository:
 
 ```bash
-git clone https://github.com/shovalnissim/smart-traffic-light.git
+git clone <https://github.com/shovalnissim/smart-traffic-light.git>
 ```
 
 Navigate to the project directory:
