@@ -1,0 +1,76 @@
+.road {
+    background-color: gray;
+    border: 1px solid #000;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .road.ns {
+    width: 45px;
+    height: 80vh;
+    flex-direction: column-reverse;
+  }
+  
+  .road.ew {
+    width: 80vh;
+    height: 45px;
+    flex-direction: row;
+  }
+  
+  .cars.ew {
+    display: flex;
+    flex-direction: row;
+    margin-left: 55px;
+  }
+  
+  .cars.ns {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 55px;
+  }
+  
+  .car {
+    margin: 6px;
+    font-size: 1.5rem;
+  }
+  
+  .car-driving {
+    position: absolute;
+    font-size: 1.5rem;
+  }
+  
+  @keyframes drive-left {
+    from {
+        right: 50%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    to {
+        right: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+  }
+  
+  @keyframes drive-down {
+    from {
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    to {
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+  }
+  
+  .car-driving.ew {
+    animation: drive-left 2s linear;
+  }
+  
+  .car-driving.ns {
+    animation: drive-down 2s linear;
+  }

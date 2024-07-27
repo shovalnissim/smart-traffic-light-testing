@@ -1,0 +1,33 @@
+.traffic-light {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .traffic-light.ns {
+    margin-bottom: 230px; 
+  }
+
+  .traffic-light.ew {
+    margin-left: 230px; 
+  }
+  
+  .light-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .traffic-light.green .light-circle {
+    background-color: green;
+  }
+  
+  .traffic-light.red .light-circle {
+    background-color: red;
+  }
+  
